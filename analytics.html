@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Security Analytics</title>
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <div class="sidebar">
+    <div class="toggle-btn" onclick="toggleSidebar()">≡</div>
+        <div class="brand">
+        <img src="phishsentinel-logo.svg" class="logo">
+        <p class="tag">AI Powered Phishing Detection</p>
+        </div>
+        
+        <nav>
+        
+        <a href="index.html">Dashboard</a>
+        <a href="scanner.html">URL Scanner</a>
+        <a href="analytics.html">Security Analytics</a>
+        <a href="threat.html">Threat Intelligence</a>
+        <a href="docs.html">Docs</a>
+        <a href="about.html">About</a>
+        
+        </nav>
+        
+    </div>
+
+    <div class="main">
+
+        <div class="page-container">
+        
+        <h1>Security Analytics</h1>
+        
+        <div class="cards">
+        
+        <div class="card">
+        <h3>Phishing Attacks</h3>
+        <p>42%</p>
+        </div>
+        
+        <div class="card">
+        <h3>Malware Attacks</h3>
+        <p>31%</p>
+        </div>
+        
+        <div class="card">
+        <h3>Credential Theft</h3>
+        <p>27%</p>
+        </div>
+        
+        </div>
+        
+        <canvas id="chart"></canvas>
+        
+    </div>
+        
+</div>
+
+<canvas id="chart"></canvas>
+
+<script>
+
+new Chart(document.getElementById("chart"),{
+type:"doughnut",
+data:{
+labels:["Phishing","Malware","Credential Theft"],
+datasets:[{
+data:[42,31,27],
+backgroundColor:["#6366f1","#ef4444","#22c55e"]
+}]
+}
+})
+
+</script>
+
+</body>
+</html>

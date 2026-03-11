@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Threat Intelligence</title>
+
+<link rel="stylesheet" href="style.css">
+
+<script src="https://unpkg.com/globe.gl"></script>
+
+</head>
+
+<body>
+
+<div class="sidebar">
+
+<div class="toggle-btn" onclick="toggleSidebar()">≡</div>
+
+<img src="phishsentinel-logo.svg" class="logo">
+
+<p class="tag">AI Powered Phishing Detection</p>
+
+<nav>
+<a href="index.html">Dashboard</a>
+<a href="scanner.html">URL Scanner</a>
+<a href="analytics.html">Security Analytics</a>
+<a href="threat.html">Threat Intelligence</a>
+<a href="docs.html">Docs</a>
+<a href="about.html">About</a>
+</nav>
+
+</div>
+
+
+<div class="main">
+
+<div class="page-container">
+
+<h1>Live Cyber Attack Map</h1>
+
+<div id="globe" style="height:450px;margin-top:30px"></div>
+
+
+<div class="card">
+
+<h2>Live Cyber Attack Feed</h2>
+
+<ul id="attackFeed"></ul>
+
+</div>
+
+</div>
+
+</div>
+
+<script src="attackmap.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
