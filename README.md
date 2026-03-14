@@ -1,4 +1,4 @@
-<img src="phishsentinel-logo.svg" align="center" size=18px>
+<img src="phishsentinel-logo.svg" align="center" width=2100px>
 <br>
 
 <p align="center">
