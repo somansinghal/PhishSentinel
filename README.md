@@ -1,3 +1,6 @@
+<img src="phishsentinel-logo.svg" align="center" >
+<br>
+
 <p align="center">
 
 <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=32&duration=3000&color=00F7FF&center=true&vCenter=true&width=900&lines=PhishSentinel+Cybersecurity+Platform;AI+Powered+Phishing+Detection;Live+Cyber+Threat+Intelligence;Security+Analytics+Dashboard">
